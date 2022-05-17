@@ -1,0 +1,65 @@
+
+.flex {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(5, 5, 137);
+  font-weight: bold;
+}
+.logo {
+  text-align: left;
+  padding: 30px 30px;
+}
+.flex2 {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  padding: 30px 30px;
+}
+
+
+
+.margin {
+  position: relative;
+  bottom: 50px;
+  width: 35%;
+  margin: 70px 0 0 auto;
+}
+
+.img {
+  right: 0px;
+
+}
+
+.smile {
+  font-weight: lighter;
+  font-size: 80px;
+  
+}
+.bluebox-parent {
+  position: relative;
+  left: 0px;
+  top: 200px;
+  
+}
+.bluebox{
+  position: absolute;
+  left: 0px;
+  top: 200;
+  background-color: rgb(5, 5, 137);
+  width: 1300px;
+  height: 200px;
+}
+.abs1 {
+  position: absolute;
+  z-index: 10;
+}
+
+.abs2{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
